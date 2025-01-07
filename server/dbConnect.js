@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = async () => {
     const mongoUri =
-       "mongodb+srv://anuj:Ya0fKBalld60gpfs@cluster0.rblpaxc.mongodb.net/?retryWrites=true&w=majority";
+        "mongodb+srv://anuj:Ya0fKBalld60gpfs@cluster0.rblpaxc.mongodb.net/?retryWrites=true&w=majority";
         //"mongodb+srv://root:987654321@cluster0.rblpaxc.mongodb.net/?retryWrites=true&w=majority";
         //"mongodb+srv://root:987654321@mongo.ce46veq.mongodb.net/?retryWrites=true&w=majority";
     try{

@@ -8,7 +8,7 @@ import {
 import store from '../redux/store';
 import { setLoading, showToast } from "../redux/slices/appConfigSlice";
 import { TOAST_FAILURE } from "../App";
-// let baseURL = 'http://localhost:4000/';
+
  let baseURL = 'https://friend-flow.onrender.com/';
 console.log('env is ', process.env.NODE_ENV);
 if(process.env.NODE_ENV === 'production') {
